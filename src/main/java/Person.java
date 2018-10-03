@@ -30,4 +30,8 @@ public class Person {
     public boolean isLegalAge() {
         return age > 18;
     }
+
+    public String describePerson() {
+        return firstName + " " + lastName + " of age " + age;
+    }
 }
