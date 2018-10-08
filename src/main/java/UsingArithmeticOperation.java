@@ -4,6 +4,12 @@ import java.util.Scanner;
 
 public class UsingArithmeticOperation {
 
+    private Integer number;
+
+    public Integer getNumber(){
+        return number;
+    }
+
     public static void main(String[] args) {
 //        Scanner scanner = new Scanner(System.in);
 //

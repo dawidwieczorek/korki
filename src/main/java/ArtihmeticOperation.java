@@ -1,9 +1,13 @@
+import java.time.LocalDate;
+
 public class ArtihmeticOperation {
 
     // variables
+    private LocalDate date;
     private String nameOfOperation;
     private Integer a;
     private Integer b;
+    // variables
 
     // constructor
     public ArtihmeticOperation(String nameOfOperation, Integer a, Integer b) {
@@ -11,6 +15,7 @@ public class ArtihmeticOperation {
         this.a = a;
         this.b = b;
     }
+    // constructor
 
     // methods
     public Integer calculateSum() {
@@ -24,4 +29,5 @@ public class ArtihmeticOperation {
     public Integer calculateMultiplication() {
         return a * b;
     }
+    // methods
 }
